@@ -4,6 +4,7 @@
     width: 600px;
     height: 500px;
     margin: 50px auto;
+    background-color: rgb(244, 239, 233);
 }
 .text{
     margin-left: 110px;
@@ -25,12 +26,14 @@
     border: solid 1px black;
     height: 300px;
     transform: rotate(180deg);
-    position: absolute;
-    top: 150px;
-    left: 250px;
+    position: relative;
+    bottom:  300px;
+    left: 50px;
 }
 .reset{
     margin-left: 310px;
+    position: relative;
+    top: 10px;
 
 }
 
@@ -39,5 +42,8 @@
     height: 0px;
     background-color: red;
     transform: rotate(180deg);
-
+    position: relative;
+}
+body{
+    background: url(https://img1.freepng.es/20201112/igz/transparent-thermometer-icon-celsius-icon-medicine-icon-5facd4167fe9b9.0253359616051620065239.jpg) ;
 }
